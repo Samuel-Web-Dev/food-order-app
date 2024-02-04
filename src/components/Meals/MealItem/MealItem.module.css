@@ -1,0 +1,54 @@
+ li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 1em;
+}
+
+ li .desc {
+  font-size: .9rem;
+  line-height: 1.7em;
+}
+
+ .desc__name {
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+ .desc__note {
+  font-family: italic;
+  font-size: 1rem;
+}
+
+ .desc__price {
+  color: rgb(178, 22, 22);
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+ .amount-btn span:first-child {
+  font-weight: 900;
+  margin-right: .5em;
+}
+
+ .amount-btn button {
+  background: rgb(117, 25, 25);
+  width: 100px;
+  height: 30px;
+  border-radius: 1em;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  display: block;
+  margin: 0 auto;
+  margin-top: .5em;
+  cursor: pointer;
+} 
+
+ .amount-btn input {
+  width: 40px;
+  height: 20px;
+  padding-left: 2px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
